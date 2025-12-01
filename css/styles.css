@@ -11016,3 +11016,161 @@ header.masthead p {
         2px 2px 10px rgba(0,0,0,1);
 }
 
+/* Modern Animations */
+@keyframes slideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+}
+
+/* Service Cards Enhancement */
+.service-card {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(52, 138, 247, 0.2);
+}
+
+.service-card i {
+    transition: all 0.3s ease;
+}
+
+.service-card:hover i {
+    transform: scale(1.2) rotate(5deg);
+    color: #348AF7;
+}
+
+/* Buttons Enhancement */
+.btn-primary, .btn-light {
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(52, 138, 247, 0.3);
+}
+
+.btn-light:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Portfolio Box Enhancements */
+#portfolio .portfolio-box {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+#portfolio .portfolio-box img {
+    transition: transform 0.4s ease;
+}
+
+#portfolio .portfolio-box:hover img {
+    transform: scale(1.1);
+}
+
+#portfolio .portfolio-box-caption {
+    background: linear-gradient(135deg, rgba(52, 138, 247, 0.9) 0%, rgba(60, 201, 177, 0.9) 100%);
+}
+
+/* Text Animations */
+h1, h2, h3 {
+    transition: all 0.3s ease;
+}
+
+h1:hover, h2:hover {
+    color: #348AF7;
+}
+
+/* Section Fade-in */
+.page-section {
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* Navbar Animation */
+#mainNav {
+    transition: all 0.3s ease;
+}
+
+#mainNav.navbar-shrink {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* Divider Animation */
+.divider {
+    animation: slideInUp 0.6s ease-out;
+}
+
+/* Form Inputs Enhancement */
+.form-control {
+    transition: all 0.3s ease;
+    border: 2px solid #dee2e6;
+}
+
+.form-control:focus {
+    border-color: #348AF7;
+    box-shadow: 0 0 0 0.2rem rgba(52, 138, 247, 0.25);
+    transform: translateY(-2px);
+}
+
+/* Responsive Animations */
+@media (max-width: 768px) {
+    .service-card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .btn-primary:hover, .btn-light:hover {
+        transform: translateY(-2px);
+    }
+}
+
