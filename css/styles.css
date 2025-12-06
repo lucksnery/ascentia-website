@@ -11163,6 +11163,18 @@ h1:hover, h2:hover {
     transform: translateY(-2px);
 }
 
+
+
+.section-divider {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(
+        to bottom,
+        #424447 0%,   /* CINZA da sua seção (peguei da imagem) */
+        #000000 100% /* PRETO da próxima seção */
+    );
+}
+
 /* Responsive Animations */
 @media (max-width: 768px) {
     .service-card:hover {
@@ -11171,6 +11183,7 @@ h1:hover, h2:hover {
     
     .btn-primary:hover, .btn-light:hover {
         transform: translateY(-2px);
-    }
+  }
+
 }
 
