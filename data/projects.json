@@ -1,0 +1,86 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "IssueMaster - Agente de IA para Qualificação Inteligente de Chamados de TI",
+      "thumbnail": "assets/img/pjt/project1/01.jpg",
+      "technologies": ["Python", "FastAPI", "Google Gemini API", "HTML5", "CSS3", "JavaScript", "Bootstrap 5", "SQLite"],
+      "images": [
+        "assets/img/pjt/project1/01.jpg",
+        "assets/img/pjt/project1/02.jpg",
+        "assets/img/pjt/project1/03.jpg",
+        "assets/img/pjt/project1/04.jpg",
+        "assets/img/pjt/project1/05.jpg"
+      ],
+      "description": [
+        "IssueMaster é um agente de inteligência artificial desenvolvido para maximizar a qualidade das descrições de chamados de TI, atuando como intermediário inteligente entre usuários finais e o sistema de abertura de chamados. O MVP valida a viabilidade de um agente autônomo capaz de avaliar descrições textuais, aplicar critérios de qualidade e orientar usuários antes da abertura oficial, reduzindo retrabalho da equipe de suporte.",
+        "O sistema resolve o problema de chamados vagos (ex: 'Meu computador não funciona') que causam aumento no tempo de atendimento, retrabalho em diagnósticos e frustração. A solução implementada utiliza Google Gemini para análise em tempo real, verificando presença de contexto, sintomas, mensagens de erro, impacto e ações já tentadas.",
+        "O agente analisa o texto do usuário, aplica critérios de avaliação estruturados, atribui pontuação de 0 a 10 e fornece feedback automático com sugestões de complementos ou testes iniciais. Se a descrição for insuficiente (0-4), o sistema bloqueia com alerta; se aceitável (5-7), sugere melhorias; se completa (8-10), aprova para envio.",
+        "A arquitetura utiliza FastAPI para o backend, SQLite para persistência de histórico e análises, e interface web responsiva com Bootstrap. O resultado é um MVP pronto para validação que reduz drasticamente o tempo de qualificação inicial de chamados e melhora significativamente a eficiência do atendimento de suporte."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Otimização de Dashboards de Operações Logísticas: Integração de Dados Híbridos para Comércio Exterior",
+      "thumbnail": "assets/img/pjt/project2/01.jpg",
+      "technologies": ["Oracle Database", "SQL", "AWS DMS (CDC)", "Power BI", "DAX", "Microsoft Excel"],
+      "images": [
+        "assets/img/pjt/project2/01.jpg",
+        "assets/img/pjt/project2/02.jpg"
+      ],
+      "description": [
+        "Desenvolvimento de uma solução de Business Intelligence para otimização das operações de Comércio Exterior, centralizando dados transacionais do ERP Oracle e informações complementares mantidas em Excel.",
+        "A arquitetura foi desenhada para alta performance, utilizando DMS com CDC para garantir a replicação dos dados em tempo real e a criação de Views diretamente no banco de dados. Essa estratégia moveu a lógica de transformação para a camada de dados, reduzindo drasticamente a carga de processamento do Power BI.",
+        "No front-end, foi estruturado um modelo de dados relacional com métricas avançadas em DAX. O resultado final entregou dashboards automatizados para monitoramento de KPIs operacionais, garantindo maior precisão e agilidade na tomada de decisão logística."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Dashboard de Expansão e Performance: Gestão de Implantação de Sistemas em Franquias",
+      "thumbnail": "assets/img/pjt/project3/01.jpg",
+      "technologies": ["PostgreSQL", "Power BI", "Power Query", "DAX", "Microsoft Excel", "Google Sheets"],
+      "images": [
+        "assets/img/pjt/project3/01.jpg",
+        "assets/img/pjt/project3/02.jpg"
+      ],
+      "description": [
+        "Desenvolvimento de uma solução de monitoramento para o processo de expansão de franquias, integrando dados transacionais de implantação armazenados em PostgreSQL com cronogramas e checklists geridos em Excel e Google Sheets.",
+        "A solução centraliza o controle de novas unidades, permitindo o acompanhamento do status de cada ativação em tempo real. Foram estruturados indicadores de efetividade dos implantadores, cumprimento de prazos (SLA) e saúde da operação. Através da modelagem no Power BI, o projeto transformou dados dispersos em visões estratégicas, otimizando a alocação de recursos e garantindo a padronização tecnológica nas novas unidades da rede."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Automação RPA com Python: Otimização de Processos de Negócio",
+      "thumbnail": "assets/img/pjt/project4/01.jpg",
+      "technologies": ["Python", "RPA", "Automação", "PyAutoGUI", "Selenium", "Pandas"],
+      "images": [
+        "assets/img/pjt/project4/01.jpg",
+        "assets/img/pjt/project4/02.jpg",
+        "assets/img/pjt/project4/03.jpg",
+        "assets/img/pjt/project4/04.jpg"
+      ],
+      "description": [
+        "Desenvolvimento de soluções de automação RPA (Robotic Process Automation) utilizando Python para otimização de processos repetitivos e de alto volume, reduzindo tempo de execução e minimizando erros humanos.",
+        "O projeto contempla a automação end-to-end de fluxos de processos complexos, integrando múltiplos sistemas através de APIs e manipulação de interfaces web. Foram criados robôs inteligentes capazes de validar dados, processar informações e gerar relatórios automaticamente.",
+        "As soluções entregues permitiram ganhos significativos em produtividade, com libertação de recursos para atividades de maior valor agregado. A arquitetura foi desenhada para escalabilidade, permitindo fácil adaptação e extensão conforme novas necessidades surgem."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Dashboard de Pedidos: Integração Automatizada ERP Bling API v3 e Power BI",
+      "thumbnail": "assets/img/pjt/project5/01.jpg",
+      "technologies": ["Power BI", "Bling ERP", "API Bling v3", "Python", "DAX"],
+      "images": [
+        "assets/img/pjt/project5/01.jpg",
+        "assets/img/pjt/project5/02.jpg",
+        "assets/img/pjt/project5/03.jpg"
+      ],
+      "description": [
+        "Desenvolvimento de uma solução de dados integrada entre o ERP Bling e o Power BI, com foco na extração, transformação e visualização estratégica dos dados de pedidos.",
+        "O projeto iniciou-se com o estudo detalhado da documentação da API v3 do Bling, incluindo os processos de autenticação, segurança e gerenciamento de refresh token para garantir conexões seguras e automatizadas. A coleta dos dados foi realizada diretamente via API, consumindo informações de pedidos em tempo quase real.",
+        "Os dados extraídos passaram por um processo de ETL em Python, contemplando tratamento, padronização, modelagem e preparação para análise. Após a carga no Power BI, foram criadas métricas, indicadores e medidas utilizando DAX, possibilitando análises claras sobre vendas, performance operacional e tomada de decisão.",
+        "O resultado foi a entrega de dashboards interativos, confiáveis e atualizáveis, proporcionando visibilidade completa dos dados do ERP e apoiando decisões estratégicas baseadas em dados."
+      ]
+    }
+  ]
+}
